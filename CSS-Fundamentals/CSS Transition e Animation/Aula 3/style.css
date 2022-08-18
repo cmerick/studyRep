@@ -1,0 +1,152 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-one, .box-two, .box-three, .box-four{
+    height: 400px;
+    width: 400px;
+}
+
+.ball, .ball-two, .ball-three, .ball-four, .ball-five, .ball-six{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball{
+    animation: example-one 5s ;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.ball-two{
+    animation: example-two 10s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+.ball-three{
+    animation: example-three 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+.ball-four{
+    animation: example-three 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.ball-five{
+    animation: example-three 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.ball-five{
+    animation: example-three 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+.ball-six{
+    background-color: purple;
+    animation: example-five 2s;
+    animation-delay: 2s;
+    
+    animation-fill-mode: forwards;
+}
+
+@keyframes example-one{
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: rosybrown;
+    }
+}
+
+@keyframes example-two{
+    0%{
+        background-color: blueviolet;
+    }
+    33%{
+        background-color: rosybrown;
+    }
+    66%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+@keyframes example-three{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: green;
+        left: 300px;
+        top: 0;
+    }
+    50%{
+        background-color: blue;
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        background-color: yellow;
+        left: 0;
+        top: 300px;
+    }
+    100%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes example-five{
+    from{
+        left: 0;
+    }
+    to{
+        left: calc(100% - 100px);
+    }
+}
+
+.linear, .ease{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    position: relative;
+    animation: example-four 2s;
+    animation-iteration-count: infinite; 
+}
+
+.linear{
+    animation-timing-function: linear;
+}
+.ease{
+    animation-timing-function: ease;
+}
+
+@keyframes example-four{
+    from{
+        left: 0;
+        
+    }
+    to{
+        left: calc(100% - 100px);
+    }
+}
