@@ -32,13 +32,13 @@ Shorthand
 
 
 CSS - functions
-    property: property-value-function(arguments);    
-    ex: color: rgb(255,0,100);
+    *property: property-value-function(arguments);    
+    ex: color: rgb(255,0,100);*
 
 Vendor prefixes
-    -webkit-background-clip: text; /*Chrome, Safari, iOS e Android*/
+    *-webkit-background-clip: text; /*Chrome, Safari, iOS e Android*/
 	-moz-background-clip: text; /* Mozilla (Firefox) */
 	-ms-background-clip: text; /* Internet Explorer ou Edge*/
-	-o-background-clip: text; /* Opera */
+	-o-background-clip: text; /* Opera */ *
 
     for more http://ireade.github.io/which-vendor-prefix/
