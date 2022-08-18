@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/property.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cadastro de Imóveis</h1>
+    <form>
+        <p>
+            <label for="">Tipo </label>
+            <select name="type">
+                <option value="Casa">Casa</option>
+                <option value="Apartemento">Apartamento</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="">Area: </label>
+            <input type="text" name="area">
+        </p>
+
+        <p>
+            <label for="">Alugado: </label>
+            <input type="radio" value="sim" name="rented">Sim</input>
+            <input type="radio" value="não" name="rented">Não</input>
+            </input>
+        </p>
+
+
+        <button onclick="index.register()" type="reset">Registrar</button>
+    </form>
+
+    <ul id="lista"></ul>
+
+</body>
+
+</html>

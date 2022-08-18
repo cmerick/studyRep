@@ -1,0 +1,1 @@
+const index = new Index()
