@@ -1,0 +1,57 @@
+.box{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+
+
+.relative{
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+.ajuste{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+.fixed{
+    position: fixed;
+    
+}
+
+.z-index.box1 {
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 5px;
+}
+
+.z-index.box2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+.z-index.box3{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}

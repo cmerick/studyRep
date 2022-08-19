@@ -59,3 +59,16 @@ html {
         exibido na janela/tela do documento. Conteúdos que estão fora do viewport só serão exibidos quando feito um
         scroll da área de visualização.</li>
 </ul>
+
+
+<position>
+
+Representa um conjunto de coordenadas 2D:
+top, right, bottom, left e center
+Usado para alguns tipos de propriedades como o background-position
+Não confundir com a propriedade position
+
+Strings: texto envolto em aspas
+.box::after {
+	content: "Isso é uma string"
+}

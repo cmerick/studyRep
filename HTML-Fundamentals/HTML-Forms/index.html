@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form>
+        -Elemento que definirá um formulário
+        -É um container estilo <section>
+            Atributos básicos
+                -action (para onde os dados serão enviados)
+                -method (,etodo que será acionado quando for submetido post ou get)
+     -->
+    <form action="" method="">
+        <!-- 
+            <fieldset>
+                -agrupamento de campos
+                -mesmo propósito
+                -semântico
+                -acessibilidade
+
+            atributos especiais
+                -disable
+                    -desabilita todos os elementos internos
+                    -não serão enviados ao submeter o formulário
+                -form
+                    -o id de um formulário ao qual esse fieldset pertence
+                    -não precisa estar dentro do formulário
+                -name
+                    -nome do grupo
+                
+            <legend>
+                -nome do agrupamento
+                -primeiro elemento dentro do fieldset
+         -->
+         <button>Enviar</button>
+
+         <fieldset disabled name="contato">
+            <legend>Contato</legend>
+            <label for="">Nome</label>
+            <input type="text">
+         </fieldset>
+
+         <fieldset name="registro">
+            <legend>Registro</legend>
+            <label for="nome">Nome</label>
+            <input id="nome" type="text">
+         </fieldset>
+         
+         <fieldset>
+            <legend>Datalist</legend>
+            <input type="text" list="fruits" placeholder="choose">
+            <datalist id="fruits">
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+            </datalist>
+         </fieldset>
+
+         <fieldset>
+            <legend>select</legend>
+            <label for="selector">select a fruit</label>
+            <select name="" id="selector">
+                <optgroup label="banan ou maça">
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+                </optgroup>
+            </select>
+         </fieldset>
+         <fieldset>
+            <legend>select</legend>
+            <label for="selector">select a fruit</label>
+            <select name="" id="selector" multiple>
+                <optgroup label="banan ou maça">
+                <option value="apple">apple</option>
+                <option value="banana" disabled>banana</option>
+                </optgroup>
+            </select>
+         </fieldset>
+    </form>
+</body>
+</html>
+
+<!-- 
+    <label>
+        -associar e identificar uma (ou mais) tags de entrada de dados
+        -acessibilidade
+        -você poderá clicar para mudar o foco da entrada de dados
+
+        atributos
+            -for
+                -para fazer a conexão entre este label e a tag de entrada de dados
+                -é feita via id do input
+                -só funciona com elementos específicos
+                    -button, input(not hidden), meter, output, progress, select, textarea
+ -->
+
+ <!-- 
+    <button>
+        -representa um botão
+        -usado para enviar formulários
+        -é estilazado pelo agent
+
+        atributos
+            -type
+                -submit
+                -reset
+                -button
+            -autofocus
+            -disable
+            -name
+            -value
+            -form
+  -->
+
+  <!-- 
+    <datalist>
+        -valores sugestivos e não obrigatórios
+
+   -->

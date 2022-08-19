@@ -1,0 +1,88 @@
+/* Font - family 
+    *Tipo de fonte de um elemento
+    *Lista de fontes e ordem de prioridade
+    *inclui *fallback* da font
+*/
+/* shorthand font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif; */
+.text1{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Font - Weight 
+    *Peso da fonte
+
+    link: https://www.w3.org/TR/css-fonts-3/
+*/
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/* Font - style
+    *Estilo da fonte
+*/
+.text3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Font - size
+    * tamanho da fonte
+*/
+.text4{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+}
+
+/* web-fonts
+    *@font-face
+    *@import
+    *link
+
+    https://css-tricks.com/snippets/css/using-font-face-in-css/
+*/
+.text5{
+    font-family: 'Roboto', sans-serif; /* font com link no html */
+    font-size: 30px;
+}
+
+/* font-variant
+    https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
+*/
+.text6{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+}
+
+/* font-stretch 
+ */
+.text7{
+    font-size: 50px;
+    font-stretch: 100%; /* Não funciona em algumas fontes */
+}
+
+/* letter-word-spacing */
+.text8{
+    font-size: 50px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+/* line height - text transform */
+.text9{
+    line-height: 2;
+    text-transform: capitalize;
+}
+/* text decoration - align - shadow */
+.text10{
+    font-size: 50px;
+    text-decoration: dashed underline;
+    text-align: center;
+    text-shadow: 2px 2px 2px red; /* offsetx | offsety | blur-radius | color */
+
+}
+
+
+    
