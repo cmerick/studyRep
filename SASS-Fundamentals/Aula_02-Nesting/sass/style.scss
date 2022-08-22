@@ -1,0 +1,32 @@
+
+/* .class1{
+    background-color: red;
+}
+.class1 li{
+    background-color: blue;
+} */
+
+$text-color: white;
+
+.class1{
+    ul{
+        background-color: red;
+    }
+    li{
+        background-color: blue;
+        padding: 10px 0px;
+        color: $text-color;
+    }
+
+    button{
+        background-color: green;
+        color: $text-color;
+        cursor: pointer;
+        
+        &:hover{
+            background-color: red;
+            transition: 0.5s;
+        }
+    
+    }
+}

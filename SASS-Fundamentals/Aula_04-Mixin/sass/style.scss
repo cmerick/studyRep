@@ -1,0 +1,32 @@
+$font-arial: Arial, Helvetica, sans-serif;
+
+@mixin text-style($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+//com mixin
+.texts{
+    h1{
+        @include text-style(#ff4043, 34px, $font-arial)
+    }
+
+    p{
+        @include text-style(blue, 22px, sans-serif)
+    }
+}
+
+//sem mixin
+/* .texts {
+    h1 {
+        color: #ff4043;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        color: blue;
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+} */

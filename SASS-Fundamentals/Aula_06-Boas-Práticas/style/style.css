@@ -1,0 +1,28 @@
+#page-title {
+  font-size: 44px;
+  font-family: sans-serif;
+}
+
+.btn {
+  width: 95px;
+  padding: 10px 0px;
+  background-color: #0a092c;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#sign-up-text {
+  color: red;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#login-text {
+  color: blue;
+  font-family: Arial;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+.texts h1 {
+  color: #ff4043;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.texts p {
+  color: blue;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+/* .texts {
+    h1 {
+        color: #ff4043;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        color: blue;
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+} */
+
+/*# sourceMappingURL=style.css.map */
